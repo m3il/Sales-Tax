@@ -10,7 +10,7 @@ public class Tax{
         System.out.println("Sales tax rate (%) of the item: ");
         double tax = in.nextDouble();
 
-        tax = tax / 10;
+        tax = tax / 100;
         
         double fullPrice = tax + price;
 
